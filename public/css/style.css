@@ -1,0 +1,42 @@
+						/*    Nav bar    */
+.container-fluid span{
+   position: relative;
+   left: 48%;
+}
+.container-fluid{
+	height: 70px;
+	font-family: "Comic Sans MS", sans-serif;
+}
+.navbar-brand{
+	margin-top: 10px;
+}
+.sortBtn{
+margin-top: 5px;
+left: 50%;
+position: absolute;
+}
+          /*    Right block    */
+.rightBlk{
+	left: 5px;
+}
+.rightBlk input, textarea{
+	margin-bottom: 5px;
+}
+         /*    Posts block    */
+.post{
+	background-color: #F8F8F8;
+	width: 600px;
+	border-radius: 5px;
+	border: 1px solid #CCCCCC;
+	font-family: "Comic Sans MS", sans-serif;
+	padding: 3px;
+	margin-bottom: 15px;
+}
+.post h3{
+	margin-top: 5px;
+}
+.postedDate{
+	float: right;
+	font-size: 10px;
+	color: #337AB7;
+}

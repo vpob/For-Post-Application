@@ -1,0 +1,11 @@
+<div class="container-fluid">
+  <div class="navbar-header">
+    <a class="navbar-brand" href="#">Posts App</a>
+  </div>
+  <span>Sort Posts by :</span>
+  <ul class="nav nav-pills sortBtn">
+    <li role="presentation" ng-repeat="btn in sortBtn" 
+                ng-class="{'active' : $index == selectedIndex}"
+                ng-click="SelectView($index)"><a href="#">{{btn}}</a></li>
+  </ul>
+</div>

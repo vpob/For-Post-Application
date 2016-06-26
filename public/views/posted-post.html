@@ -1,0 +1,12 @@
+<div class="col-sm-8" ng-repeat="post in postList">
+ <div class="container">
+	 <div class=".col-md-6 post">
+	 	<span>
+	 		<h3>{{post.head}}</h3>
+	 	</span>
+		
+			{{post.body}} 
+			<span class="postedDate">{{post.date | date:"d MMM yyyy 'at' H:mm"}}</span>
+		</div>
+	</div>
+</div>
